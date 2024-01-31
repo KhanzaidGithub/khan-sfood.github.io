@@ -1,0 +1,477 @@
+/*Header*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .header{
+    background-image: linear-gradient(rgb(0,0,0,0),rgb(45,78,90)),url(./image/header-image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.logo-image {
+    width: 100px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #353839;
+    font-size: 16px;
+}
+
+li a:hover {
+    color: #F56801;
+    text-decoration: underline;
+    line-height: 10px;
+}
+
+.btn {
+    color: #353839;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: white;
+    border: none;
+}
+
+.btn2 {
+    color: white;
+    background-color: #353839;
+    border: none;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: #F56801;
+}
+
+/*Hero Section*/
+.hero-section {
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgba(81, 79, 79, 0.7)), url(./image/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 125px;
+    width: 80%;
+    margin: auto;
+    font-size: 22px;
+    /* line-height: 49px; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-text>h1 {
+    word-spacing: 10px;
+}
+
+.left-text>p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.left-btn {
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 35px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.left1 {
+    background-color: #F56801;
+}
+
+.left2 {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*After Hero-Section*/
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 30px; */
+    padding: 50px 0px;
+    padding-bottom: 70px;
+    justify-content: space-around;
+}
+
+.child {
+    padding: 15px 20px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 4px rgb(226, 224, 224);
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.child img {
+    display: block;
+    margin: auto;
+    width: 140px;
+}
+
+.child>h2 {
+    color: #353839;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+/*Browse Menu*/
+.browse {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.menu-text {
+    text-align: left;
+    padding: 30px 10px;
+}
+
+.view-menu-btn {
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    background-color: #F56801;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+/*One-Side Vector buger Section*/
+.one-side {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.vector-burger {
+    width: 300px;
+    height: 400px;
+}
+
+.vector-burger img {
+    width: 100%;
+    height: 100%;
+}
+
+.burger-text {
+    text-align: left;
+}
+
+.burger-text>h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+}
+
+.burger-text>p {
+    color: #353839;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul li {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.ul li:before {
+    content: '✓';
+    padding: 0px 5px;
+    color: white;
+    background-color: #F56801;
+    border-radius: 50%;
+}
+
+.burger-btn {
+    padding: 15px 28px;
+    color: white;
+    background-color: #F56801;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+/* New-Dishes-Section*/
+.new-dishes-section {
+    padding: 50px 0px;
+    background-color: #fff6f6;
+}
+
+.dishes-text {
+    text-align: center;
+    color: black;
+}
+
+.dishes-text>h1 {
+    font-size: 40px;
+    padding: 30px 0px;
+}
+
+.dishes-text>p {
+    color: #353839;
+}
+
+.dish {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dish-image {
+    width: 300px;
+    height: 200px;
+}
+
+.dish-image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.dish-text {
+    text-align: left;
+    padding: 30px 10px;
+}
+
+/*Dishes Cards*/
+.dishes-cards {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.explore-btn {
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    background-color: #F56801;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+/* Team Members Section */
+
+.member-section {
+    padding: 50px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.team-text {
+    text-align: center;
+    color: black;
+}
+
+.team-text>h2 {
+    font-size: 40px;
+}
+
+.team-text>p {
+    color: #353839;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+/* Members Cards and their name in Div */
+.all-members-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-card {
+    width: 300px;
+    height: 310px;
+    background-color: #353839;
+    border-radius: 8px;
+    margin: 50px 0px;
+    position: relative;
+}
+
+.member-image {
+    width: 300px;
+    height: 250px;
+}
+
+.member-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.member-name {
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.social-icons {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    bottom: 150px;
+    right: 30%;
+}
+
+/* Blog Section and div */
+.blog-cards-div {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.blog-section {
+    padding-bottom: 30px;
+}
+
+.blog-text {
+    text-align: center;
+}
+
+.blog-text>h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.blog-text>p {
+    color: #353839;
+}
+
+/*Blogs Cards*/
+.blogs {
+    width: 290px;
+    height: 325px;
+    margin: 60px 0px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(164, 163, 163);
+    /* box-shadow: 1px 1px 1px 1px rgb(122, 122, 122); */
+}
+
+.blog-image {
+    width: 290px;
+    height: 220px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 8px;
+}
+
+.fa-regular {
+    color: #F56801;
+    padding: 0px 5px;
+}
+
+.about-blog {
+    padding: 20px 8px;
+    font-size: 18px;
+}
