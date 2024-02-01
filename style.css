@@ -405,10 +405,13 @@ li a:hover {
 
 .social-icons {
     position: absolute;
-    color: white;
     font-size: 35px;
     bottom: 150px;
     right: 30%;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Blog Section and div */
