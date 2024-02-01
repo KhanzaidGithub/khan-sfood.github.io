@@ -15,13 +15,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 
 .logo-image {
-    width: 100px;
+    width: 115px;
 }
-
+.logo-image img{
+    width: 100%;
+    height: 100%;
+}
 .menu ul {
     display: flex;
     align-items: center;
@@ -35,7 +38,7 @@ ul li {
 li a {
     text-decoration: none;
     color: #353839;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 li a:hover {
@@ -47,7 +50,7 @@ li a:hover {
 .btn {
     color: #353839;
     padding: 15px 25px;
-    font-size: 16px;
+    font-size: 17px;
     border-radius: 10px;
     cursor: pointer;
 }
