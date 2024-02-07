@@ -21,10 +21,12 @@ nav {
 .logo-image {
     width: 115px;
 }
-.logo-image img{
+
+.logo-image img {
     width: 100%;
     height: 100%;
 }
+
 .menu ul {
     display: flex;
     align-items: center;
@@ -412,7 +414,8 @@ li a:hover {
     bottom: 150px;
     right: 30%;
 }
-.social-icons a{
+
+.social-icons a {
     text-decoration: none;
     color: white;
 }
@@ -446,7 +449,7 @@ li a:hover {
 /*Blogs Cards*/
 .blogs {
     width: 290px;
-    height: 325px;
+    height: 345px;
     margin: 60px 0px;
     border-radius: 10px;
     background-color: white;
@@ -481,3 +484,44 @@ li a:hover {
     padding: 20px 8px;
     font-size: 18px;
 }
+/*Footer section*/
+.footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo {
+    flex: 1;
+    text-align: center;
+  }
+  .footer-logo img {
+    width: 150px;
+  }
+  .footer-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .footer-menu ul li {
+    margin-right: 20px;
+  }
+  .footer-menu ul li:last-child {
+    margin-right: 0;
+  }
+  .footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-menu ul li a:hover {
+    text-decoration: underline;
+    color: #F56801;
+  }
