@@ -15,7 +15,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    padding: 8px 0px;
+    padding: 0px 0px;
 }
 
 .logo-image {
@@ -62,15 +62,15 @@ li a:hover {
     border: none;
 }
 
-.btn2 {
+.btn2{
     color: white;
-    background-color: #353839;
+    background-color: #F56801;
     border: none;
 }
 
 .btn2:hover {
-    color: white;
-    background-color: #F56801;
+    color: #F56801;
+    background-color: white;
 }
 
 /*Hero Section*/
@@ -300,6 +300,7 @@ li a:hover {
 
 .dish {
     width: 300px;
+    height: auto;
     background-color: white;
     border-radius: 10px;
 }
@@ -379,7 +380,7 @@ li a:hover {
 
 .team-card {
     width: 300px;
-    height: 310px;
+    height: 320px;
     background-color: #353839;
     border-radius: 8px;
     margin: 50px 0px;
@@ -484,6 +485,49 @@ li a:hover {
     padding: 20px 8px;
     font-size: 18px;
 }
+
+/*Clients section*/
+.reviews-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 70px 0px;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the space between reviews */
+  }
+
+  .review {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust the width of each review */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+
+  .stars {
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+
+  .review-text {
+    margin-top: 10px;
+    color: #555;
+  }
+  .client-heading{
+    text-align: center;
+    font-size: 35px;
+    color: #00000;
+    margin-top:10px;
+}
+
 /*Footer section*/
 .footer {
     background-color: rgb(34, 34, 34);
@@ -492,36 +536,44 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .footer-logo {
+}
+
+.footer-logo {
     flex: 1;
     text-align: center;
-  }
-  .footer-logo img {
+}
+
+.footer-logo img {
     width: 150px;
-  }
-  .footer-menu {
+}
+
+.footer-menu {
     flex: 1;
     display: flex;
     justify-content: center;
-  }
-  .footer-menu ul {
+}
+
+.footer-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-  }
-  .footer-menu ul li {
+}
+
+.footer-menu ul li {
     margin-right: 20px;
-  }
-  .footer-menu ul li:last-child {
+}
+
+.footer-menu ul li:last-child {
     margin-right: 0;
-  }
-  .footer-menu ul li a {
+}
+
+.footer-menu ul li a {
     color: #fff;
     text-decoration: none;
-  }
-  .footer-menu ul li a:hover {
+}
+
+.footer-menu ul li a:hover {
     text-decoration: underline;
     color: #F56801;
-  }
+}
